@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box
+}
+
+html *,
+html :after,
+html :before {
+    box-sizing: inherit
+}
+
+img {
+    vertical-align: middle
+}
+
+.content {
+    display: flex
+}
+
+.inline-svg {
+    opacity: 0
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #243238;
+    font-size: 16px;
+    line-height: 1.5
+}
+
+a {
+    color: #181818;
+    text-decoration: none;
+}
+p {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+div {
+    display: block;
+}
+img, svg {
+    vertical-align: middle;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
+
+.footer-area {
+    padding-top: 116px;
+    background: #001442;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.footer-title h6 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-bottom: 19px;
+}
+.footer-title span {
+    display: inherit;
+    opacity: 0.800;
+    font-size: 16px;
+    color: #ffffff;
+}
+.footer-widget {
+    padding: 24px 0 4px;
+    margin: 0 0 16px;
+}
+.footer-widget-text p {
+    padding: 24px 0 4px;
+    opacity: 0.800;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.footer-widget-logo {
+    padding-top: 8px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.row.footer-bg-bottom {
+    background-color: #001442;
+    border: 1px solid rgb(255, 255, 255,0.102);
+    border-width: 1px 0 0 0;
+    margin-top: 115px;
+}
+.coppy-right-text-left p {
+    padding-top: 33px;
+    padding-bottom: 21px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.coppy-right-text p {
+    padding-top: 35px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: right;
+}
